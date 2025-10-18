@@ -1,0 +1,343 @@
+=== Training LSTM ===
+Train Epoch 1:   0%|          | 0/152 [00:00<?, ?it/s]
+Train Epoch 1: 100%|██████████| 152/152 [00:07<00:00, 19.46it/s]
+Epoch 1: Train Acc=0.3563, Val Acc=0.3940
+Train Epoch 2: 100%|██████████| 152/152 [00:09<00:00, 15.80it/s]
+Epoch 2: Train Acc=0.4367, Val Acc=0.3973
+Train Epoch 3: 100%|██████████| 152/152 [00:09<00:00, 15.40it/s]
+Epoch 3: Train Acc=0.5642, Val Acc=0.4546
+Train Epoch 4: 100%|██████████| 152/152 [00:07<00:00, 19.40it/s]
+Epoch 4: Train Acc=0.7277, Val Acc=0.4394
+Train Epoch 5: 100%|██████████| 152/152 [00:09<00:00, 15.56it/s]
+Epoch 5: Train Acc=0.8471, Val Acc=0.4130
+Train Epoch 6: 100%|██████████| 152/152 [00:09<00:00, 15.89it/s]
+Epoch 6: Train Acc=0.9127, Val Acc=0.4031
+Train Epoch 7: 100%|██████████| 152/152 [00:07<00:00, 19.63it/s]
+Epoch 7: Train Acc=0.9408, Val Acc=0.4080
+Train Epoch 8: 100%|██████████| 152/152 [00:09<00:00, 15.88it/s]
+Epoch 8: Train Acc=0.9633, Val Acc=0.3985
+Train Epoch 9: 100%|██████████| 152/152 [00:09<00:00, 15.75it/s]
+Epoch 9: Train Acc=0.9746, Val Acc=0.4031
+Train Epoch 10: 100%|██████████| 152/152 [00:07<00:00, 19.43it/s]
+Epoch 10: Train Acc=0.9816, Val Acc=0.4014
+
+
+=== Training CNN ===
+Train Epoch 1: 100%|██████████| 152/152 [00:03<00:00, 50.46it/s]
+Epoch 1: Train Acc=0.3728, Val Acc=0.3804
+Train Epoch 2: 100%|██████████| 152/152 [00:00<00:00, 178.63it/s]
+Epoch 2: Train Acc=0.4530, Val Acc=0.4171
+Train Epoch 3: 100%|██████████| 152/152 [00:02<00:00, 55.54it/s]
+Epoch 3: Train Acc=0.5380, Val Acc=0.4323
+Train Epoch 4: 100%|██████████| 152/152 [00:02<00:00, 55.47it/s]
+Epoch 4: Train Acc=0.6468, Val Acc=0.4422
+Train Epoch 5: 100%|██████████| 152/152 [00:02<00:00, 54.43it/s]
+Epoch 5: Train Acc=0.8100, Val Acc=0.4290
+Train Epoch 6: 100%|██████████| 152/152 [00:02<00:00, 54.66it/s]
+Epoch 6: Train Acc=0.9195, Val Acc=0.4344
+Train Epoch 7: 100%|██████████| 152/152 [00:02<00:00, 54.49it/s]
+Epoch 7: Train Acc=0.9712, Val Acc=0.4237
+Train Epoch 8: 100%|██████████| 152/152 [00:02<00:00, 54.14it/s]
+Epoch 8: Train Acc=0.9881, Val Acc=0.4257
+Train Epoch 9: 100%|██████████| 152/152 [00:02<00:00, 51.44it/s]
+Epoch 9: Train Acc=0.9939, Val Acc=0.4196
+Train Epoch 10: 100%|██████████| 152/152 [00:02<00:00, 54.30it/s]
+Epoch 10: Train Acc=0.9967, Val Acc=0.4175
+
+=== Training CNN+LSTM ===
+Train Epoch 1: 100%|██████████| 152/152 [00:09<00:00, 16.86it/s]
+Epoch 1: Train Acc=0.3506, Val Acc=0.4051
+Train Epoch 2: 100%|██████████| 152/152 [00:10<00:00, 14.03it/s]
+Epoch 2: Train Acc=0.4292, Val Acc=0.4286
+Train Epoch 3: 100%|██████████| 152/152 [00:10<00:00, 13.95it/s]
+Epoch 3: Train Acc=0.5563, Val Acc=0.4427
+Train Epoch 4: 100%|██████████| 152/152 [00:08<00:00, 17.59it/s]
+Epoch 4: Train Acc=0.7007, Val Acc=0.4241
+Train Epoch 5: 100%|██████████| 152/152 [00:10<00:00, 14.14it/s]
+Epoch 5: Train Acc=0.8133, Val Acc=0.4183
+Train Epoch 6: 100%|██████████| 152/152 [00:10<00:00, 14.17it/s]
+Epoch 6: Train Acc=0.8796, Val Acc=0.4026
+Train Epoch 7: 100%|██████████| 152/152 [00:08<00:00, 17.66it/s]
+Epoch 7: Train Acc=0.9179, Val Acc=0.3952
+Train Epoch 8: 100%|██████████| 152/152 [00:10<00:00, 14.13it/s]
+Epoch 8: Train Acc=0.9422, Val Acc=0.3911
+Train Epoch 9: 100%|██████████| 152/152 [00:10<00:00, 14.16it/s]
+Epoch 9: Train Acc=0.9562, Val Acc=0.3903
+Train Epoch 10: 100%|██████████| 152/152 [00:08<00:00, 17.53it/s]
+Epoch 10: Train Acc=0.9646, Val Acc=0.3696
+
+=== Training LSTM+CNN ===
+Train Epoch 1: 100%|██████████| 152/152 [00:08<00:00, 17.15it/s]
+Epoch 1: Train Acc=0.3721, Val Acc=0.3890
+Train Epoch 2: 100%|██████████| 152/152 [00:11<00:00, 13.68it/s]
+Epoch 2: Train Acc=0.4451, Val Acc=0.4596
+Train Epoch 3: 100%|██████████| 152/152 [00:10<00:00, 14.04it/s]
+Epoch 3: Train Acc=0.5774, Val Acc=0.4592
+Train Epoch 4: 100%|██████████| 152/152 [00:10<00:00, 14.23it/s]
+Epoch 4: Train Acc=0.7569, Val Acc=0.4460
+Train Epoch 5: 100%|██████████| 152/152 [00:10<00:00, 13.94it/s]
+Epoch 5: Train Acc=0.8772, Val Acc=0.4196
+Train Epoch 6: 100%|██████████| 152/152 [00:08<00:00, 18.74it/s]
+Epoch 6: Train Acc=0.9303, Val Acc=0.4278
+Train Epoch 7: 100%|██████████| 152/152 [00:10<00:00, 14.29it/s]
+Epoch 7: Train Acc=0.9619, Val Acc=0.4179
+Train Epoch 8: 100%|██████████| 152/152 [00:10<00:00, 13.93it/s]
+Epoch 8: Train Acc=0.9760, Val Acc=0.4130
+Train Epoch 9: 100%|██████████| 152/152 [00:08<00:00, 18.79it/s]
+Epoch 9: Train Acc=0.9850, Val Acc=0.4163
+Train Epoch 10: 100%|██████████| 152/152 [00:10<00:00, 14.05it/s]
+Epoch 10: Train Acc=0.9882, Val Acc=0.4171
+
+=== Training Transformer ===
+Train Epoch 1:   0%|          | 0/152 [00:00<?, ?it/s]
+Train Epoch 1: 100%|██████████| 152/152 [00:07<00:00, 19.55it/s]
+Epoch 1: Train Acc=0.3630, Val Acc=0.3919
+Train Epoch 2: 100%|██████████| 152/152 [00:10<00:00, 14.91it/s]
+Epoch 2: Train Acc=0.3929, Val Acc=0.3956
+Train Epoch 3: 100%|██████████| 152/152 [00:10<00:00, 14.74it/s]
+Epoch 3: Train Acc=0.4480, Val Acc=0.4286
+Train Epoch 4: 100%|██████████| 152/152 [00:07<00:00, 20.30it/s]
+Epoch 4: Train Acc=0.6675, Val Acc=0.3989
+Train Epoch 5: 100%|██████████| 152/152 [00:10<00:00, 14.88it/s]
+Epoch 5: Train Acc=0.8504, Val Acc=0.3857
+Train Epoch 6: 100%|██████████| 152/152 [00:10<00:00, 14.91it/s]
+Epoch 6: Train Acc=0.9154, Val Acc=0.3684
+Train Epoch 7: 100%|██████████| 152/152 [00:07<00:00, 19.68it/s]
+Epoch 7: Train Acc=0.9483, Val Acc=0.3667
+Train Epoch 8: 100%|██████████| 152/152 [00:10<00:00, 15.06it/s]
+Epoch 8: Train Acc=0.9643, Val Acc=0.3655
+Train Epoch 9: 100%|██████████| 152/152 [00:10<00:00, 14.96it/s]
+Epoch 9: Train Acc=0.9694, Val Acc=0.3738
+Train Epoch 10: 100%|██████████| 152/152 [00:07<00:00, 20.39it/s]
+Epoch 10: Train Acc=0.9814, Val Acc=0.3767
+
+Transfer learning:
+MoritzLaurer/multilingual-MiniLMv2-L6-mnli-xnli:
+(Since the train acc is too high, the loss makes more sense)
+Epoch 1: Train Loss=0.5877, Val Acc=0.7756
+Epoch 2: Train Loss=0.5198, Val Acc=0.7855
+Epoch 3: Train Loss=0.4572, Val Acc=0.7690
+Epoch 4: Train Loss=0.3929, Val Acc=0.7715
+Epoch 5: Train Loss=0.3228, Val Acc=0.7715
+
+MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7
+Epoch 1: Train Loss=0.3784,Train acc= 0.8559,Val Acc=0.8614
+Epoch 2: Train Loss=0.1985,Train acc= 0.9293,Val Acc=0.8540
+Epoch 3: Train Loss=0.0953,Train acc= 0.9693,Val Acc=0.8573
+Epoch 4: Train Loss=0.0616,Train acc= 0.9811,Val Acc=0.8581
+Epoch 5: Train Loss=0.0410,Train acc= 0.9856,Val Acc=0.8531
+
+variance比较大，下一个大点的模型加dropout 0.2
+
+XLMRoberta：过拟合这一块还是。。。
+Step 10/682 - Avg Loss: 1.8998 - Acc: 0.3750
+Step 20/682 - Avg Loss: 1.4604 - Acc: 0.4156
+Step 30/682 - Avg Loss: 1.2789 - Acc: 0.4375
+Step 40/682 - Avg Loss: 1.1410 - Acc: 0.4813
+Step 50/682 - Avg Loss: 1.0465 - Acc: 0.5325
+Step 60/682 - Avg Loss: 1.0106 - Acc: 0.5573
+Step 70/682 - Avg Loss: 0.9551 - Acc: 0.5848
+Step 80/682 - Avg Loss: 0.8978 - Acc: 0.6156
+Step 90/682 - Avg Loss: 0.8406 - Acc: 0.6410
+Step 100/682 - Avg Loss: 0.7856 - Acc: 0.6687
+Step 110/682 - Avg Loss: 0.7465 - Acc: 0.6864
+Step 120/682 - Avg Loss: 0.7136 - Acc: 0.7031
+Step 130/682 - Avg Loss: 0.6869 - Acc: 0.7163
+Step 140/682 - Avg Loss: 0.6652 - Acc: 0.7272
+Step 150/682 - Avg Loss: 0.6498 - Acc: 0.7367
+Step 160/682 - Avg Loss: 0.6273 - Acc: 0.7469
+Step 170/682 - Avg Loss: 0.6049 - Acc: 0.7566
+Step 180/682 - Avg Loss: 0.5901 - Acc: 0.7642
+Step 190/682 - Avg Loss: 0.5790 - Acc: 0.7691
+Step 200/682 - Avg Loss: 0.5761 - Acc: 0.7725
+Step 210/682 - Avg Loss: 0.5650 - Acc: 0.7783
+Step 220/682 - Avg Loss: 0.5586 - Acc: 0.7827
+Step 230/682 - Avg Loss: 0.5504 - Acc: 0.7853
+Step 240/682 - Avg Loss: 0.5475 - Acc: 0.7867
+Step 250/682 - Avg Loss: 0.5381 - Acc: 0.7907
+Step 260/682 - Avg Loss: 0.5328 - Acc: 0.7928
+Step 270/682 - Avg Loss: 0.5293 - Acc: 0.7947
+Step 280/682 - Avg Loss: 0.5258 - Acc: 0.7962
+Step 290/682 - Avg Loss: 0.5178 - Acc: 0.7996
+Step 300/682 - Avg Loss: 0.5145 - Acc: 0.8010
+Step 310/682 - Avg Loss: 0.5109 - Acc: 0.8026
+Step 320/682 - Avg Loss: 0.5024 - Acc: 0.8070
+Step 330/682 - Avg Loss: 0.4963 - Acc: 0.8091
+Step 340/682 - Avg Loss: 0.4912 - Acc: 0.8110
+Step 350/682 - Avg Loss: 0.4878 - Acc: 0.8118
+Step 360/682 - Avg Loss: 0.4826 - Acc: 0.8134
+Step 370/682 - Avg Loss: 0.4769 - Acc: 0.8160
+Step 380/682 - Avg Loss: 0.4708 - Acc: 0.8183
+Step 390/682 - Avg Loss: 0.4662 - Acc: 0.8204
+Step 400/682 - Avg Loss: 0.4651 - Acc: 0.8216
+Step 410/682 - Avg Loss: 0.4609 - Acc: 0.8238
+Step 420/682 - Avg Loss: 0.4596 - Acc: 0.8243
+Step 430/682 - Avg Loss: 0.4564 - Acc: 0.8260
+Step 440/682 - Avg Loss: 0.4545 - Acc: 0.8261
+Step 450/682 - Avg Loss: 0.4525 - Acc: 0.8272
+Step 460/682 - Avg Loss: 0.4485 - Acc: 0.8291
+Step 470/682 - Avg Loss: 0.4434 - Acc: 0.8315
+Step 480/682 - Avg Loss: 0.4406 - Acc: 0.8331
+Step 490/682 - Avg Loss: 0.4395 - Acc: 0.8338
+Step 500/682 - Avg Loss: 0.4392 - Acc: 0.8337
+Step 510/682 - Avg Loss: 0.4375 - Acc: 0.8344
+Step 520/682 - Avg Loss: 0.4368 - Acc: 0.8345
+Step 530/682 - Avg Loss: 0.4331 - Acc: 0.8358
+Step 540/682 - Avg Loss: 0.4303 - Acc: 0.8373
+Step 550/682 - Avg Loss: 0.4266 - Acc: 0.8386
+Step 560/682 - Avg Loss: 0.4268 - Acc: 0.8393
+Step 570/682 - Avg Loss: 0.4257 - Acc: 0.8401
+Step 580/682 - Avg Loss: 0.4234 - Acc: 0.8407
+Step 590/682 - Avg Loss: 0.4230 - Acc: 0.8409
+Step 600/682 - Avg Loss: 0.4227 - Acc: 0.8409
+Step 610/682 - Avg Loss: 0.4217 - Acc: 0.8416
+Step 620/682 - Avg Loss: 0.4198 - Acc: 0.8421
+Step 630/682 - Avg Loss: 0.4177 - Acc: 0.8428
+Step 640/682 - Avg Loss: 0.4151 - Acc: 0.8433
+Step 650/682 - Avg Loss: 0.4120 - Acc: 0.8445
+Step 660/682 - Avg Loss: 0.4112 - Acc: 0.8449
+Step 670/682 - Avg Loss: 0.4115 - Acc: 0.8451
+Step 680/682 - Avg Loss: 0.4116 - Acc: 0.8449
+Step 682/682 - Avg Loss: 0.4112 - Acc: 0.8451
+Epoch 1: Train Loss=0.4112,Train acc= 0.8451,Val Acc=0.8853
+Step 10/682 - Avg Loss: 0.1980 - Acc: 0.9437
+Step 20/682 - Avg Loss: 0.1552 - Acc: 0.9563
+Step 30/682 - Avg Loss: 0.1736 - Acc: 0.9500
+Step 40/682 - Avg Loss: 0.1895 - Acc: 0.9453
+Step 50/682 - Avg Loss: 0.1833 - Acc: 0.9463
+Step 60/682 - Avg Loss: 0.1881 - Acc: 0.9437
+Step 70/682 - Avg Loss: 0.1892 - Acc: 0.9411
+Step 80/682 - Avg Loss: 0.1795 - Acc: 0.9453
+Step 90/682 - Avg Loss: 0.1777 - Acc: 0.9465
+Step 100/682 - Avg Loss: 0.1843 - Acc: 0.9456
+Step 110/682 - Avg Loss: 0.1927 - Acc: 0.9426
+Step 120/682 - Avg Loss: 0.1877 - Acc: 0.9437
+Step 130/682 - Avg Loss: 0.1849 - Acc: 0.9437
+Step 140/682 - Avg Loss: 0.1882 - Acc: 0.9433
+Step 150/682 - Avg Loss: 0.1849 - Acc: 0.9429
+Step 160/682 - Avg Loss: 0.1928 - Acc: 0.9410
+Step 170/682 - Avg Loss: 0.1944 - Acc: 0.9401
+Step 180/682 - Avg Loss: 0.2001 - Acc: 0.9382
+Step 190/682 - Avg Loss: 0.2021 - Acc: 0.9385
+Step 200/682 - Avg Loss: 0.2069 - Acc: 0.9363
+Step 210/682 - Avg Loss: 0.2105 - Acc: 0.9336
+Step 220/682 - Avg Loss: 0.2151 - Acc: 0.9307
+Step 230/682 - Avg Loss: 0.2139 - Acc: 0.9304
+Step 240/682 - Avg Loss: 0.2152 - Acc: 0.9297
+Step 250/682 - Avg Loss: 0.2148 - Acc: 0.9300
+Step 260/682 - Avg Loss: 0.2162 - Acc: 0.9291
+Step 270/682 - Avg Loss: 0.2135 - Acc: 0.9299
+Step 280/682 - Avg Loss: 0.2190 - Acc: 0.9286
+Step 290/682 - Avg Loss: 0.2242 - Acc: 0.9269
+Step 300/682 - Avg Loss: 0.2256 - Acc: 0.9269
+Step 310/682 - Avg Loss: 0.2269 - Acc: 0.9264
+Step 320/682 - Avg Loss: 0.2251 - Acc: 0.9270
+Step 330/682 - Avg Loss: 0.2244 - Acc: 0.9271
+Step 340/682 - Avg Loss: 0.2245 - Acc: 0.9267
+Step 350/682 - Avg Loss: 0.2244 - Acc: 0.9266
+Step 360/682 - Avg Loss: 0.2243 - Acc: 0.9264
+Step 370/682 - Avg Loss: 0.2242 - Acc: 0.9258
+Step 380/682 - Avg Loss: 0.2249 - Acc: 0.9260
+Step 390/682 - Avg Loss: 0.2222 - Acc: 0.9268
+Step 400/682 - Avg Loss: 0.2223 - Acc: 0.9269
+Step 410/682 - Avg Loss: 0.2210 - Acc: 0.9268
+Step 420/682 - Avg Loss: 0.2225 - Acc: 0.9266
+Step 430/682 - Avg Loss: 0.2219 - Acc: 0.9267
+Step 440/682 - Avg Loss: 0.2211 - Acc: 0.9271
+Step 450/682 - Avg Loss: 0.2194 - Acc: 0.9275
+Step 460/682 - Avg Loss: 0.2191 - Acc: 0.9279
+Step 470/682 - Avg Loss: 0.2189 - Acc: 0.9277
+Step 480/682 - Avg Loss: 0.2187 - Acc: 0.9273
+Step 490/682 - Avg Loss: 0.2206 - Acc: 0.9270
+Step 500/682 - Avg Loss: 0.2219 - Acc: 0.9266
+Step 510/682 - Avg Loss: 0.2218 - Acc: 0.9265
+Step 520/682 - Avg Loss: 0.2214 - Acc: 0.9263
+Step 530/682 - Avg Loss: 0.2215 - Acc: 0.9261
+Step 540/682 - Avg Loss: 0.2229 - Acc: 0.9255
+Step 550/682 - Avg Loss: 0.2247 - Acc: 0.9248
+Step 560/682 - Avg Loss: 0.2273 - Acc: 0.9243
+Step 570/682 - Avg Loss: 0.2289 - Acc: 0.9235
+Step 580/682 - Avg Loss: 0.2298 - Acc: 0.9230
+Step 590/682 - Avg Loss: 0.2307 - Acc: 0.9225
+Step 600/682 - Avg Loss: 0.2293 - Acc: 0.9228
+Step 610/682 - Avg Loss: 0.2307 - Acc: 0.9220
+Step 620/682 - Avg Loss: 0.2296 - Acc: 0.9221
+Step 630/682 - Avg Loss: 0.2295 - Acc: 0.9220
+Step 640/682 - Avg Loss: 0.2296 - Acc: 0.9223
+Step 650/682 - Avg Loss: 0.2281 - Acc: 0.9227
+Step 660/682 - Avg Loss: 0.2290 - Acc: 0.9223
+Step 670/682 - Avg Loss: 0.2287 - Acc: 0.9227
+Step 680/682 - Avg Loss: 0.2279 - Acc: 0.9231
+Step 682/682 - Avg Loss: 0.2286 - Acc: 0.9229
+Epoch 2: Train Loss=0.2286,Train acc= 0.9229,Val Acc=0.8828
+Step 10/682 - Avg Loss: 0.1165 - Acc: 0.9750
+Step 20/682 - Avg Loss: 0.1058 - Acc: 0.9750
+Step 30/682 - Avg Loss: 0.0971 - Acc: 0.9750
+Step 40/682 - Avg Loss: 0.1110 - Acc: 0.9672
+Step 50/682 - Avg Loss: 0.1247 - Acc: 0.9650
+Step 60/682 - Avg Loss: 0.1221 - Acc: 0.9635
+Step 70/682 - Avg Loss: 0.1256 - Acc: 0.9616
+Step 80/682 - Avg Loss: 0.1275 - Acc: 0.9609
+Step 90/682 - Avg Loss: 0.1317 - Acc: 0.9597
+Step 100/682 - Avg Loss: 0.1375 - Acc: 0.9575
+Step 110/682 - Avg Loss: 0.1390 - Acc: 0.9568
+Step 120/682 - Avg Loss: 0.1381 - Acc: 0.9557
+Step 130/682 - Avg Loss: 0.1355 - Acc: 0.9567
+Step 140/682 - Avg Loss: 0.1405 - Acc: 0.9554
+Step 150/682 - Avg Loss: 0.1367 - Acc: 0.9571
+Step 160/682 - Avg Loss: 0.1316 - Acc: 0.9582
+Step 170/682 - Avg Loss: 0.1289 - Acc: 0.9592
+Step 180/682 - Avg Loss: 0.1299 - Acc: 0.9587
+Step 190/682 - Avg Loss: 0.1281 - Acc: 0.9586
+Step 200/682 - Avg Loss: 0.1260 - Acc: 0.9594
+Step 210/682 - Avg Loss: 0.1224 - Acc: 0.9604
+Step 220/682 - Avg Loss: 0.1219 - Acc: 0.9605
+Step 230/682 - Avg Loss: 0.1225 - Acc: 0.9601
+Step 240/682 - Avg Loss: 0.1238 - Acc: 0.9596
+Step 250/682 - Avg Loss: 0.1268 - Acc: 0.9587
+Step 260/682 - Avg Loss: 0.1263 - Acc: 0.9594
+Step 270/682 - Avg Loss: 0.1319 - Acc: 0.9579
+Step 280/682 - Avg Loss: 0.1327 - Acc: 0.9574
+Step 290/682 - Avg Loss: 0.1329 - Acc: 0.9569
+Step 300/682 - Avg Loss: 0.1314 - Acc: 0.9573
+Step 310/682 - Avg Loss: 0.1323 - Acc: 0.9569
+Step 320/682 - Avg Loss: 0.1339 - Acc: 0.9561
+Step 330/682 - Avg Loss: 0.1332 - Acc: 0.9561
+Step 340/682 - Avg Loss: 0.1334 - Acc: 0.9555
+Step 350/682 - Avg Loss: 0.1347 - Acc: 0.9557
+Step 360/682 - Avg Loss: 0.1346 - Acc: 0.9557
+Step 370/682 - Avg Loss: 0.1367 - Acc: 0.9549
+Step 380/682 - Avg Loss: 0.1381 - Acc: 0.9538
+Step 390/682 - Avg Loss: 0.1381 - Acc: 0.9535
+Step 400/682 - Avg Loss: 0.1399 - Acc: 0.9533
+Step 410/682 - Avg Loss: 0.1406 - Acc: 0.9532
+Step 420/682 - Avg Loss: 0.1410 - Acc: 0.9533
+Step 430/682 - Avg Loss: 0.1407 - Acc: 0.9533
+Step 440/682 - Avg Loss: 0.1411 - Acc: 0.9534
+Step 450/682 - Avg Loss: 0.1404 - Acc: 0.9536
+Step 460/682 - Avg Loss: 0.1397 - Acc: 0.9539
+Step 470/682 - Avg Loss: 0.1407 - Acc: 0.9536
+Step 480/682 - Avg Loss: 0.1394 - Acc: 0.9540
+Step 490/682 - Avg Loss: 0.1392 - Acc: 0.9541
+Step 500/682 - Avg Loss: 0.1390 - Acc: 0.9541
+Step 510/682 - Avg Loss: 0.1391 - Acc: 0.9540
+Step 520/682 - Avg Loss: 0.1402 - Acc: 0.9540
+Step 530/682 - Avg Loss: 0.1413 - Acc: 0.9535
+Step 540/682 - Avg Loss: 0.1424 - Acc: 0.9532
+Step 550/682 - Avg Loss: 0.1424 - Acc: 0.9533
+Step 560/682 - Avg Loss: 0.1430 - Acc: 0.9533
+Step 570/682 - Avg Loss: 0.1434 - Acc: 0.9530
+Step 580/682 - Avg Loss: 0.1430 - Acc: 0.9531
+Step 590/682 - Avg Loss: 0.1433 - Acc: 0.9529
+Step 600/682 - Avg Loss: 0.1447 - Acc: 0.9523
+Step 610/682 - Avg Loss: 0.1444 - Acc: 0.9524
+Step 620/682 - Avg Loss: 0.1446 - Acc: 0.9522
+Step 630/682 - Avg Loss: 0.1444 - Acc: 0.9522
+Step 640/682 - Avg Loss: 0.1447 - Acc: 0.9521
+Step 650/682 - Avg Loss: 0.1455 - Acc: 0.9520
+Step 660/682 - Avg Loss: 0.1454 - Acc: 0.9519
+Step 670/682 - Avg Loss: 0.1443 - Acc: 0.9523
+Step 680/682 - Avg Loss: 0.1443 - Acc: 0.9525
+Step 682/682 - Avg Loss: 0.1453 - Acc: 0.9523
+Epoch 3: Train Loss=0.1453,Train acc= 0.9523,Val Acc=0.8746
+

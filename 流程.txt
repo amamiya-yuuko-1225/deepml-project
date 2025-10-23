@@ -5,3 +5,6 @@
 5. 模型大小问题排除（bias低），数据量排除（扩大10倍还是不行），只能怀疑模型结构
 6. enhanced lstm等专门处理的模型，提升有限
 6. 只能用bert系列的大模型做transfer
+
+
+batch norm对Siamese 结构有害也可说

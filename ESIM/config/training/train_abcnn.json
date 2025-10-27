@@ -1,0 +1,31 @@
+{
+  "embeddings": "../../data/cmdw_emb/embeddings.pkl",
+  "train_data": "../../data/cmdw_emb/train_data.pkl",
+  "valid_data": "../../data/cmdw_emb/test_data.pkl",
+  "target_dir": "../../data/checkpoints/CMDW_ABCNN",
+
+  "hidden_size": 300,
+  "num_classes": 3,
+  "dropout": 0.5,
+
+  "model_name": "abcnn",
+  "abcnn": {
+    "type": "ABCNN3",
+    "num_filters": 300,
+    "kernel_size": 3
+  },
+
+  "optimizer": "adam",
+  "lr": 0.0004,
+
+  "batch_size": 128,
+  "val_batch_size": 256,
+  "shuffle": true,
+
+  "epochs": 10,
+  "print_freq": 100,
+  "patience": 3,
+  "max_gradient_norm": 10.0,
+  "seed": 42,
+  "use_cuda": true
+}

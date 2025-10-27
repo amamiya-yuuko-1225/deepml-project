@@ -1,0 +1,5 @@
+{
+  "max_len": 60,
+  "emb_dim": 300,
+  "vocab_size": 57400
+}

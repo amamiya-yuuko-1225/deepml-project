@@ -1,0 +1,32 @@
+{
+  "embeddings": "../../data/cmdw_emb/embeddings.pkl",
+  "train_data": "../../data/cmdw_emb/train_data.pkl",
+  "valid_data": "../../data/cmdw_emb/test_data.pkl",
+  "target_dir": "../../data/checkpoints/CMDW",
+
+  "hidden_size": 300,
+  "num_classes": 3,
+  "bidir": true,
+  "dropout": 0.5,
+
+  "model": {
+    "hidden_size": 300,
+    "num_classes": 3,
+    "bidir": true,
+    "dropout": 0.5
+  },
+
+  "optimizer": "adam",
+  "lr": 0.001,
+
+  "batch_size": 128,
+  "val_batch_size": 100,
+  "shuffle": true,
+
+  "epochs": 10,
+  "print_freq": 100,
+  "patience": 3,
+  "max_gradient_norm": 10.0,
+  "seed": 42,
+  "use_cuda": true
+}
